@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "bidding",
+    "name": "Bidding",
     "slug": "bidding",
+    "scheme": "bidding",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +22,17 @@
       }
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d82c72ce-86a3-4b71-8f94-2227c08c8980"
+      }
+    },
+    "owner": "rvreeke",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
